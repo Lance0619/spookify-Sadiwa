@@ -1,7 +1,6 @@
 /* Fonts 
 font-family: 'Lora', serif;
 font-family: 'Poppins', sans-serif;
-
 */
 
 :root {
@@ -42,3 +41,271 @@ ol[class] {
   margin-top: var(--flow-spacer, var(--spacer));
 }
 /* Start Here */
+/* Start Here */
+.homepage{
+  margin: 0 auto;
+  
+}
+.navigation {
+	position: sticky;
+	justify-content: space-between;
+  display: flex;
+	align-items: center;
+	height: 100px;
+	top: 0;
+}
+.nav_title{
+  display: inline-block;
+  font-size: 18px;
+  font-family:'Poppins', sans-serif;
+}
+.navigation_title{
+  display: inline;
+}
+.top{
+  text-decoration: none;
+  color: #3D2892;
+  margin-right: 80px;
+  margin-left: -70px;
+}
+.logo{
+  font-family:Calibri;
+  font-weight: bold;
+  font-size: 30px;
+  color: #3D2892;
+  margin-left: 10%;
+}
+.firstlogo{
+  color:#F55D3A;
+}
+.Image{
+  margin-left: 70%;
+  position: absolute;
+}
+h1{
+  font-family: 'Poppins', sans-serif;
+  font-size: 64px;
+  text-transform: uppercase;
+  margin-left:12% ;
+  margin-top: 3%;
+  color: #F55D3A;
+}
+h2{
+  font-size:32px ;
+  margin-left:12%;
+  margin-top: 3%;
+  color: #4A4A4A;;
+}
+  
+.Getstarted{
+  filter: drop-shadow(0px 0px 5px gray);
+  margin-top: 3%;
+  background-color: #3D2892;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  padding: 5px 20px;
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 16px;
+  font-family:'Poppins', sans-serif  ;
+  cursor: pointer;
+  font-weight: bold;
+  margin-left:12%;
+
+
+}
+
+.overall, .top-authors, .name, .fp
+, .ft, .fs{
+  font-family:'Poppins', sans-serif;
+
+}
+.secondoverall{
+  text-align: center;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+.top-stories, .TopAuthors{
+  margin-bottom:10%;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #3D2892;
+  filter: drop-shadow(1px 1px 4px rgba(128, 128, 128, 0.368));
+}
+
+.paramdamstory{
+  position: absolute;
+  margin-left: 14%;
+}
+.Story_Title{
+  margin-bottom:10%;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #3D2892;
+  filter: drop-shadow(1px 1px 4px rgba(128, 128, 128, 0.368));
+}
+
+.StoryOne{
+    font-size: 28px;
+    margin-bottom: 2%;
+    margin-left: 4%;
+    color: #3D2892;
+  }
+.paramdam1{
+    width: 115%;
+  
+}
+.Story_Title{
+  text-align: center;
+  font-size: 28px;
+  color: #3D2892;
+}
+img.storyone{
+  float: left;
+  padding: 0 10rem 0 4rem;
+  margin-left: 1rem;
+  filter: drop-shadow(-8px -8px #F55D3A);
+}
+.title-paramdam{
+  margin-bottom: 2%;
+  margin-left: 3%;
+  font-size: 28px;
+  color: #3D2892;
+}
+.bgcolor1{
+  margin-left: 45%;
+  color: gray;
+}
+.detail{
+  font-size: 18px;
+  font-family: 'Lora', serif;
+  margin-inline-end: 31%;
+  text-align:start;
+}
+
+.StoryTwo{
+  position: absolute;
+  margin-left: 60%;
+}
+.readmore, .readmore1{
+  text-decoration: none;
+  color:#F55D3A;
+  font-size: 20px;
+  filter: drop-shadow(1px 1px 4px rgba(128, 128, 128, 0.244));
+  font-weight: bold;
+  margin-top: 2%;
+
+  margin-left: -0.3%;
+
+}
+.readmore1{
+  margin-left: -27.2%;
+
+}
+.SecondStory{
+  margin-bottom: 2%;
+  margin-left: -61%;
+  font-size: 28px;
+  color: #3D2892;
+}
+
+.Senyalesimg{
+  width: 115%;
+}
+.bgcolor2{
+  margin-right: 40%;
+  color: gray;
+}
+.story2{
+  margin-left: 24%;
+  margin-inline-end: 12%;
+  font-size: 18px;
+  font-family: 'Lora', serif;
+  text-align:start;
+}
+
+.TopAuthors{
+  text-align: center;
+  filter: none;
+}
+.authors{
+  margin-bottom: 40%;
+  
+}
+.author1{
+  position:absolute;
+  text-align: center;
+  margin-left: 9%;
+
+}
+.author2{
+  margin-left: 40%;
+  position:absolute;
+  text-align: center;
+}
+.author3{
+  margin-left: 67%;
+  position:absolute;
+  text-align: center;
+}
+.name{
+  font-size: 28px;
+  color:#F55D3A;
+  margin-top: 5%;
+}
+.class{
+  font-size: 18px;
+  font-family: 'Lora', serif;
+  color: gray;
+  margin-top: 2.5%;
+}
+.name{
+  width: 200px;
+}
+
+.authorname{
+  font-size: 28px;
+  color:#F55D3A;
+  margin-top: 5%;
+}
+
+.img-footer{
+  width: 101%;
+  margin-left: -1%;
+  margin-bottom:-1%;
+
+}
+
+.DtS,.container-3,.SU,.f-input,.credits{
+  position: absolute;
+}
+.DtS{
+  margin-top: 15%;
+  text-transform: none;
+}
+.f-input, .SU{
+  border: #FFFAFB;
+  margin-top: 17.5%;
+  padding: 10px 30px;
+  margin-left: 61%;
+}
+.credits{
+  font-size: 18px;
+  margin-top: 24%;
+  color: #FFFAFB;
+  margin-left: 35%;
+}
+.SU{
+  margin-top: 17.7%;
+  margin-left:80%;
+  padding: 5px 20px;
+  border-radius: 5%;
+  background-color: #3D2892;
+  color: #FFFAFB;
+  font-size: 18px;
+  font-weight: bold;
+}
